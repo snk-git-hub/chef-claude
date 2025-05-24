@@ -10,4 +10,4 @@ export default function Header() {
       <p className="text-sm text-gray-300">Your AI-powered cooking assistant</p>
     </header>
   );
-}
+} 
