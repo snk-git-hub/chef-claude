@@ -14,7 +14,7 @@ export default function ShowAnswer({ ingredients }) {
                 const prompt = `Suggest a recipe using these ingredients: ${ingredients.join(", ")}`;
 
                 const result = await axios.post(
-                    "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=AIzaSyDqIRqRFPpKqDLhAUxdQDWqpao7NNqXgqA",
+                    "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key= your_key",
                     {
                         contents: [
                             {
